@@ -34,6 +34,8 @@ jobs:
   build:
     name: build source
     runs-on: ubuntu-latest
+    env:
+      APPLICATION_SITE: ${{ vars.APPLICATION_SITE }}
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
