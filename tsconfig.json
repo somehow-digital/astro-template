@@ -1,0 +1,3 @@
+{
+	"extends": "@somehow-digital/typescript-config/basic"
+}
