@@ -1,12 +1,12 @@
 import sitemap from '@astrojs/sitemap';
+import { config } from '@dotenvx/dotenvx';
 import { defineConfig } from 'astro/config';
-import { loadEnv } from 'vite';
 
-const { APPLICATION_SITE } = loadEnv(process.env.NODE_ENV, process.cwd(), '');
+config();
 
 export default defineConfig({
 	base: '/',
 	integrations: [sitemap()],
-	site: APPLICATION_SITE,
+	site: process.env.APPLICATION_SITE,
 	trailingSlash: 'always',
 });
