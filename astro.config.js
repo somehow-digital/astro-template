@@ -7,6 +7,11 @@ config();
 export default defineConfig({
 	base: '/',
 	integrations: [sitemap()],
+	output: 'static',
+	prefetch: {
+		defaultStrategy: 'tap',
+		prefetchAll: true,
+	},
 	site: process.env.APPLICATION_SITE,
 	trailingSlash: 'always',
 });
