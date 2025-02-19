@@ -1,4 +1,5 @@
 import sitemap from '@astrojs/sitemap';
+import vue from '@astrojs/vue';
 import { config } from '@dotenvx/dotenvx';
 import { defineConfig } from 'astro/config';
 import unocss from 'unocss/astro';
@@ -11,6 +12,7 @@ export default defineConfig({
 		unocss({
 			injectReset: true,
 		}),
+		vue(),
 		sitemap(),
 	],
 	output: 'static',
