@@ -1,12 +1,18 @@
 import sitemap from '@astrojs/sitemap';
 import { config } from '@dotenvx/dotenvx';
 import { defineConfig } from 'astro/config';
+import unocss from 'unocss/astro';
 
 config();
 
 export default defineConfig({
 	base: '/',
-	integrations: [sitemap()],
+	integrations: [
+		unocss({
+			injectReset: true,
+		}),
+		sitemap(),
+	],
 	output: 'static',
 	prefetch: {
 		defaultStrategy: 'tap',
