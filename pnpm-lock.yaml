@@ -16,7 +16,7 @@ importers:
         version: 5.0.7(@types/node@22.13.5)(astro@5.3.1(@types/node@22.13.5)(jiti@2.4.2)(rollup@4.34.8)(typescript@5.7.3)(yaml@2.7.0))(jiti@2.4.2)(rollup@4.34.8)(vue@3.5.13(typescript@5.7.3))(yaml@2.7.0)
       '@dotenvx/dotenvx':
         specifier: ^1.36.0
-        version: 1.37.0
+        version: 1.38.1
       '@unocss/reset':
         specifier: ^66.0.0
         version: 66.0.0
@@ -587,8 +587,8 @@ packages:
     resolution: {integrity: sha512-GNQqST7zI85dAFVyao6oiTeg5rNhO9FH1ZAd397qQhvwfxrrniNfuoewu8gPXyP0R4XBiiaCwhBL7w9S/F5guw==}
     engines: {node: '>=18.0'}
 
-  '@dotenvx/dotenvx@1.37.0':
-    resolution: {integrity: sha512-AMPts6UnBQoJ+ash2M5MLSVETa0MZCY89p5msW+ojq7sbgM7R+H9Kmd8Gj1yTpcBoKbiOElWq5OLSHwG5nyCNg==}
+  '@dotenvx/dotenvx@1.38.1':
+    resolution: {integrity: sha512-FXWqZiy8UQQf2zOzVz/Y+QVNdZoWqhNMTUQ3UpCxYa3Y6g8i3GaDp276ccbQLJAbHeLIFcYqpAm8e24EGaDS6A==}
     hasBin: true
 
   '@ecies/ciphers@0.2.2':
@@ -1887,8 +1887,8 @@ packages:
   easy-table@1.2.0:
     resolution: {integrity: sha512-OFzVOv03YpvtcWGe5AayU5G2hgybsg3iqA6drU8UaoZyB9jLGMTrz9+asnLp/E+6qPh88yEI1gvyZFZ41dmgww==}
 
-  eciesjs@0.4.13:
-    resolution: {integrity: sha512-zBdtR4K+wbj10bWPpIOF9DW+eFYQu8miU5ypunh0t4Bvt83ZPlEWgT5Dq/0G6uwEXumZKjfb5BZxYUZQ2Hzn/Q==}
+  eciesjs@0.4.14:
+    resolution: {integrity: sha512-eJAgf9pdv214Hn98FlUzclRMYWF7WfoLlkS9nWMTm1qcCwn6Ad4EGD9lr9HXMBfSrZhYQujRE+p0adPRkctC6A==}
     engines: {bun: '>=1', deno: '>=2', node: '>=16'}
 
   electron-to-chromium@1.5.102:
@@ -4467,11 +4467,11 @@ snapshots:
 
   '@cspell/url@8.17.5': {}
 
-  '@dotenvx/dotenvx@1.37.0':
+  '@dotenvx/dotenvx@1.38.1':
     dependencies:
       commander: 11.1.0
       dotenv: 16.4.7
-      eciesjs: 0.4.13
+      eciesjs: 0.4.14
       execa: 5.1.1
       fdir: 6.4.3(picomatch@4.0.2)
       ignore: 5.3.2
@@ -5940,7 +5940,7 @@ snapshots:
     optionalDependencies:
       wcwidth: 1.0.1
 
-  eciesjs@0.4.13:
+  eciesjs@0.4.14:
     dependencies:
       '@ecies/ciphers': 0.2.2(@noble/ciphers@1.2.1)
       '@noble/ciphers': 1.2.1
