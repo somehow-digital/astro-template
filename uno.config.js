@@ -1,5 +1,6 @@
-import { defineConfig, presetMini } from 'unocss';
+import presetBasic from '@somehow-digital/unocss-preset';
+import { defineConfig } from 'unocss';
 
 export default defineConfig({
-	presets: [presetMini()],
+	presets: [presetBasic()],
 });
