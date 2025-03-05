@@ -16,7 +16,7 @@ importers:
         version: 5.0.7(@types/node@22.13.8)(astro@5.4.1(@types/node@22.13.8)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2)(yaml@2.7.0))(jiti@2.4.2)(rollup@4.34.9)(vue@3.5.13(typescript@5.8.2))(yaml@2.7.0)
       '@dotenvx/dotenvx':
         specifier: ^1.36.0
-        version: 1.38.3
+        version: 1.38.4
       '@unocss/reset':
         specifier: ^66.0.0
         version: 66.0.0
@@ -590,8 +590,8 @@ packages:
     resolution: {integrity: sha512-GNQqST7zI85dAFVyao6oiTeg5rNhO9FH1ZAd397qQhvwfxrrniNfuoewu8gPXyP0R4XBiiaCwhBL7w9S/F5guw==}
     engines: {node: '>=18.0'}
 
-  '@dotenvx/dotenvx@1.38.3':
-    resolution: {integrity: sha512-6tquYDfAiJbgQbYwWfL0jJHiUumY5EiFXVswk9sTwn5lWICMwOPmMOrM9TEVLzesfNMYwDyUiMp5WAA6yXs+SQ==}
+  '@dotenvx/dotenvx@1.38.4':
+    resolution: {integrity: sha512-5rl1W5uMgSMrjluMqOf0FmUC6DILlR9Iy+6WzJIzt8qAON6gSbNZEkDG7MtktbK8g6QgQm9mMwaGgjW4DeU9Gw==}
     hasBin: true
 
   '@ecies/ciphers@0.2.2':
@@ -4477,7 +4477,7 @@ snapshots:
 
   '@cspell/url@8.17.5': {}
 
-  '@dotenvx/dotenvx@1.38.3':
+  '@dotenvx/dotenvx@1.38.4':
     dependencies:
       commander: 11.1.0
       dotenv: 16.4.7
