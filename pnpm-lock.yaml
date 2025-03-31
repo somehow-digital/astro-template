@@ -13,7 +13,7 @@ importers:
         version: 3.3.0
       '@astrojs/vue':
         specifier: ^5.0.6
-        version: 5.0.8(@types/node@22.13.14)(astro@5.5.5(@types/node@22.13.14)(jiti@2.4.2)(rollup@4.38.0)(typescript@5.8.2)(yaml@2.7.1))(jiti@2.4.2)(rollup@4.38.0)(vue@3.5.13(typescript@5.8.2))(yaml@2.7.1)
+        version: 5.0.9(@types/node@22.13.14)(astro@5.5.6(@types/node@22.13.14)(jiti@2.4.2)(rollup@4.38.0)(typescript@5.8.2)(yaml@2.7.1))(jiti@2.4.2)(rollup@4.38.0)(vue@3.5.13(typescript@5.8.2))(yaml@2.7.1)
       '@dotenvx/dotenvx':
         specifier: ^1.36.0
         version: 1.39.0
@@ -22,7 +22,7 @@ importers:
         version: 66.0.0
       astro:
         specifier: ^5.3.0
-        version: 5.5.5(@types/node@22.13.14)(jiti@2.4.2)(rollup@4.38.0)(typescript@5.8.2)(yaml@2.7.1)
+        version: 5.5.6(@types/node@22.13.14)(jiti@2.4.2)(rollup@4.38.0)(typescript@5.8.2)(yaml@2.7.1)
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.8.2)
@@ -114,8 +114,8 @@ packages:
     resolution: {integrity: sha512-wxhSKRfKugLwLlr4OFfcqovk+LIFtKwLyGPqMsv+9/ibqqnW3Gv7tBhtKEb0gAyUAC4G9BTVQeQahqnQAhd6IQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
 
-  '@astrojs/vue@5.0.8':
-    resolution: {integrity: sha512-YMcBczTkbqkAXasb1uPPkxQbsKoEYyfJOPvGxggjqKCHtan23q2HwL9lg6ORwnWA//L+PgvcO6AOOCmuav1LWw==}
+  '@astrojs/vue@5.0.9':
+    resolution: {integrity: sha512-VyC7tyZzIjyjMrOAnuMuUYCX9FtlNbYaGP7BoFcNcZbS47gemMlKpVO0NPmUpo6pxSskPDaS+lfzO8xiuRtfZA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       astro: ^5.0.0
@@ -1447,8 +1447,8 @@ packages:
   array-timsort@1.0.3:
     resolution: {integrity: sha512-/+3GRL7dDAGEfM6TseQk/U+mi18TU2Ms9I3UlLdUMhz2hbvGNTKdj9xniwXfUqgYhHxRx0+8UnKkvlNwVU+cWQ==}
 
-  astro@5.5.5:
-    resolution: {integrity: sha512-fdnnK5dhWNIQT/cXzvaGs9il4T5noi4jafobdntbuNOrRxI1JnOxDfrtBadUo6cknCRCFhYrXh4VndCqj1a4Sg==}
+  astro@5.5.6:
+    resolution: {integrity: sha512-SjU6zAlRe/gQrZ558Qhm211Yl8XOZBfjMpZig3XtQpG6zlyHJkElbWQIWXAVPzMg17cFVdv/qZPVHfcP2YOGGw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3761,12 +3761,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vue@5.0.8(@types/node@22.13.14)(astro@5.5.5(@types/node@22.13.14)(jiti@2.4.2)(rollup@4.38.0)(typescript@5.8.2)(yaml@2.7.1))(jiti@2.4.2)(rollup@4.38.0)(vue@3.5.13(typescript@5.8.2))(yaml@2.7.1)':
+  '@astrojs/vue@5.0.9(@types/node@22.13.14)(astro@5.5.6(@types/node@22.13.14)(jiti@2.4.2)(rollup@4.38.0)(typescript@5.8.2)(yaml@2.7.1))(jiti@2.4.2)(rollup@4.38.0)(vue@3.5.13(typescript@5.8.2))(yaml@2.7.1)':
     dependencies:
       '@vitejs/plugin-vue': 5.2.1(vite@6.2.4(@types/node@22.13.14)(jiti@2.4.2)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       '@vitejs/plugin-vue-jsx': 4.1.2(vite@6.2.4(@types/node@22.13.14)(jiti@2.4.2)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       '@vue/compiler-sfc': 3.5.13
-      astro: 5.5.5(@types/node@22.13.14)(jiti@2.4.2)(rollup@4.38.0)(typescript@5.8.2)(yaml@2.7.1)
+      astro: 5.5.6(@types/node@22.13.14)(jiti@2.4.2)(rollup@4.38.0)(typescript@5.8.2)(yaml@2.7.1)
       vite: 6.2.4(@types/node@22.13.14)(jiti@2.4.2)(yaml@2.7.1)
       vite-plugin-vue-devtools: 7.7.2(rollup@4.38.0)(vite@6.2.4(@types/node@22.13.14)(jiti@2.4.2)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.2))
       vue: 3.5.13(typescript@5.8.2)
@@ -5215,7 +5215,7 @@ snapshots:
 
   array-timsort@1.0.3: {}
 
-  astro@5.5.5(@types/node@22.13.14)(jiti@2.4.2)(rollup@4.38.0)(typescript@5.8.2)(yaml@2.7.1):
+  astro@5.5.6(@types/node@22.13.14)(jiti@2.4.2)(rollup@4.38.0)(typescript@5.8.2)(yaml@2.7.1):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
