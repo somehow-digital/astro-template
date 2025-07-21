@@ -2,6 +2,7 @@ import sitemap from '@astrojs/sitemap';
 import vue from '@astrojs/vue';
 import { config } from '@dotenvx/dotenvx';
 import { defineConfig } from 'astro/config';
+import { env } from 'node:process';
 import unocss from 'unocss/astro';
 
 config();
@@ -20,6 +21,6 @@ export default defineConfig({
 		defaultStrategy: 'tap',
 		prefetchAll: true,
 	},
-	site: process.env.APPLICATION_SITE,
+	site: env.APPLICATION_SITE,
 	trailingSlash: 'always',
 });
