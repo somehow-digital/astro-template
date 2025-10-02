@@ -13,7 +13,7 @@ importers:
         version: 3.6.0
       '@astrojs/vue':
         specifier: ^5.0.6
-        version: 5.1.1(@types/node@22.18.8)(astro@5.13.10(@types/node@22.18.8)(jiti@2.6.1)(rollup@4.52.0)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(rollup@4.52.0)(vue@3.5.22(typescript@5.9.3))(yaml@2.8.1)
+        version: 5.1.1(@types/node@22.18.8)(astro@5.14.1(@types/node@22.18.8)(jiti@2.6.1)(rollup@4.52.0)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(rollup@4.52.0)(vue@3.5.22(typescript@5.9.3))(yaml@2.8.1)
       '@dotenvx/dotenvx':
         specifier: ^1.36.0
         version: 1.50.1
@@ -22,7 +22,7 @@ importers:
         version: 66.5.2
       astro:
         specifier: ^5.3.0
-        version: 5.13.10(@types/node@22.18.8)(jiti@2.6.1)(rollup@4.52.0)(typescript@5.9.3)(yaml@2.8.1)
+        version: 5.14.1(@types/node@22.18.8)(jiti@2.6.1)(rollup@4.52.0)(typescript@5.9.3)(yaml@2.8.1)
       vue:
         specifier: ^3.5.13
         version: 3.5.22(typescript@5.9.3)
@@ -1766,8 +1766,8 @@ packages:
     resolution: {integrity: sha512-JepyLROIad6f44uyqMF6HKE2QbunNzp3mYKRcPoDGt0QkxXmH222FAFC64WTyQu2Kg8NNEXHTN/sWuUId9sSxw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@5.13.10:
-    resolution: {integrity: sha512-PgIrIYvrR7fCoSPPt1sGlpoYK/FNil1BwKazND1DyaZC7SbWLi9hdIHM3ApdrL2SWK7oiADRPw7cTn80UyDWqA==}
+  astro@5.14.1:
+    resolution: {integrity: sha512-gPa8NY7/lP8j8g81iy8UwANF3+aukKRWS68IlthZQNgykpg80ne6lbHOp6FErYycxQ1TUhgEfkXVDQZAoJx8Bg==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2140,8 +2140,8 @@ packages:
   destr@2.0.5:
     resolution: {integrity: sha512-ugFTXCtDZunbzasqBxrK93Ik/DRYsO6S/fedkWEMKqt04xZ4csmnmwGDBAb07QWNaGMAmnTIemsYZCksjATwsA==}
 
-  detect-libc@2.1.0:
-    resolution: {integrity: sha512-vEtk+OcP7VBRtQZ1EJ3bdgzSfBjgnEalLTp5zjJrS+2Z1w2KZly4SBdac/WDU3hhsNAZ9E8SC96ME4Ey8MZ7cg==}
+  detect-libc@2.1.1:
+    resolution: {integrity: sha512-ecqj/sy1jcK1uWrwpR67UhYrIFQ+5WlGxth34WquCbamhFA6hkkwiu37o6J5xCHdo1oixJRfVRw+ywV+Hq/0Aw==}
     engines: {node: '>=8'}
 
   deterministic-object-hash@2.0.2:
@@ -4403,12 +4403,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vue@5.1.1(@types/node@22.18.8)(astro@5.13.10(@types/node@22.18.8)(jiti@2.6.1)(rollup@4.52.0)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(rollup@4.52.0)(vue@3.5.22(typescript@5.9.3))(yaml@2.8.1)':
+  '@astrojs/vue@5.1.1(@types/node@22.18.8)(astro@5.14.1(@types/node@22.18.8)(jiti@2.6.1)(rollup@4.52.0)(typescript@5.9.3)(yaml@2.8.1))(jiti@2.6.1)(rollup@4.52.0)(vue@3.5.22(typescript@5.9.3))(yaml@2.8.1)':
     dependencies:
       '@vitejs/plugin-vue': 5.2.1(vite@6.3.6(@types/node@22.18.8)(jiti@2.6.1)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
       '@vitejs/plugin-vue-jsx': 4.2.0(vite@6.3.6(@types/node@22.18.8)(jiti@2.6.1)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
       '@vue/compiler-sfc': 3.5.22
-      astro: 5.13.10(@types/node@22.18.8)(jiti@2.6.1)(rollup@4.52.0)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.14.1(@types/node@22.18.8)(jiti@2.6.1)(rollup@4.52.0)(typescript@5.9.3)(yaml@2.8.1)
       vite: 6.3.6(@types/node@22.18.8)(jiti@2.6.1)(yaml@2.8.1)
       vite-plugin-vue-devtools: 7.7.7(rollup@4.52.0)(vite@6.3.6(@types/node@22.18.8)(jiti@2.6.1)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
       vue: 3.5.22(typescript@5.9.3)
@@ -6223,7 +6223,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@5.13.10(@types/node@22.18.8)(jiti@2.6.1)(rollup@4.52.0)(typescript@5.9.3)(yaml@2.8.1):
+  astro@5.14.1(@types/node@22.18.8)(jiti@2.6.1)(rollup@4.52.0)(typescript@5.9.3)(yaml@2.8.1):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.3
@@ -6713,7 +6713,7 @@ snapshots:
 
   destr@2.0.5: {}
 
-  detect-libc@2.1.0:
+  detect-libc@2.1.1:
     optional: true
 
   deterministic-object-hash@2.0.2:
@@ -8638,7 +8638,7 @@ snapshots:
   sharp@0.34.4:
     dependencies:
       '@img/colour': 1.0.0
-      detect-libc: 2.1.0
+      detect-libc: 2.1.1
       semver: 7.7.2
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.34.4
