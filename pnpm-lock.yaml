@@ -44,10 +44,13 @@ importers:
         version: 3.0.0(typescript@5.9.3)
       '@somehow-digital/unocss-preset':
         specifier: ^2.0.0
-        version: 2.1.0(unocss@66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)))
+        version: 2.1.0(unocss@66.6.5(@unocss/astro@66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)))(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)))
       '@types/node':
         specifier: ^24.0.0
         version: 24.11.0
+      '@unocss/astro':
+        specifier: ^66.6.5
+        version: 66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2))
       concurrently:
         specifier: ^9.0.0
         version: 9.2.1
@@ -71,7 +74,7 @@ importers:
         version: 5.9.3
       unocss:
         specifier: ^66.0.0
-        version: 66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2))
+        version: 66.6.5(@unocss/astro@66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)))(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2))
 
 packages:
 
@@ -1878,6 +1881,14 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+
+  '@unocss/astro@66.6.5':
+    resolution: {integrity: sha512-7qjetA7vi9mvNLznIw66G1nN9JWLL92bEzwm3axCG1qUmR+TmDH3/MNUsZki5vAop3DeEjoOZMVuLbcL06wkWw==}
+    peerDependencies:
+      vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0 || ^6.0.0-0 || ^7.0.0-0 || ^8.0.0-0
+    peerDependenciesMeta:
+      vite:
+        optional: true
 
   '@unocss/cli@66.6.5':
     resolution: {integrity: sha512-UlETATpAZ+A5gOfj+z+BMXuIUcXCMjvlQteQE0VR2Yf0VIxz4sVO4z0VCXwXsxLTMfQiIMDpKVrGeczcYicvTA==}
@@ -6126,9 +6137,9 @@ snapshots:
     dependencies:
       typescript: 5.9.3
 
-  '@somehow-digital/unocss-preset@2.1.0(unocss@66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)))':
+  '@somehow-digital/unocss-preset@2.1.0(unocss@66.6.5(@unocss/astro@66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)))(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)))':
     dependencies:
-      unocss: 66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2))
+      unocss: 66.6.5(@unocss/astro@66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)))(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2))
 
   '@stylistic/eslint-plugin@5.8.0(eslint@10.0.2(jiti@2.6.1))':
     dependencies:
@@ -6273,6 +6284,14 @@ snapshots:
       eslint-visitor-keys: 5.0.1
 
   '@ungap/structured-clone@1.3.0': {}
+
+  '@unocss/astro@66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2))':
+    dependencies:
+      '@unocss/core': 66.6.5
+      '@unocss/reset': 66.6.5
+      '@unocss/vite': 66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2))
+    optionalDependencies:
+      vite: 6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)
 
   '@unocss/cli@66.6.5':
     dependencies:
@@ -9396,7 +9415,7 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unocss@66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)):
+  unocss@66.6.5(@unocss/astro@66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)))(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2)):
     dependencies:
       '@unocss/cli': 66.6.5
       '@unocss/core': 66.6.5
@@ -9415,6 +9434,8 @@ snapshots:
       '@unocss/transformer-directives': 66.6.5
       '@unocss/transformer-variant-group': 66.6.5
       '@unocss/vite': 66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2))
+    optionalDependencies:
+      '@unocss/astro': 66.6.5(vite@6.4.1(@types/node@24.11.0)(jiti@2.6.1)(yaml@2.8.2))
     transitivePeerDependencies:
       - vite
 
