@@ -45,12 +45,5 @@
 		"lint-staged": "^16.0.0",
 		"typescript": "^5.4.5",
 		"unocss": "^66.0.0"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild",
-			"oxc-resolver",
-			"sharp"
-		]
 	}
 }
