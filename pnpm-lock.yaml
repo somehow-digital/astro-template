@@ -13,7 +13,7 @@ importers:
         version: 3.7.2
       '@astrojs/vue':
         specifier: ^6.0.0
-        version: 6.0.1(@types/node@24.12.4)(astro@6.3.2(@types/node@24.12.4)(jiti@2.7.0)(rollup@4.60.3)(yaml@2.9.0))(jiti@2.7.0)(vue@3.5.34(typescript@6.0.3))(yaml@2.9.0)
+        version: 6.0.1(@types/node@24.12.4)(astro@6.3.3(@types/node@24.12.4)(jiti@2.7.0)(rollup@4.60.3)(yaml@2.9.0))(jiti@2.7.0)(vue@3.5.34(typescript@6.0.3))(yaml@2.9.0)
       '@dotenvx/dotenvx':
         specifier: ^1.36.0
         version: 1.66.0
@@ -22,7 +22,7 @@ importers:
         version: 66.6.8
       astro:
         specifier: ^6.0.0
-        version: 6.3.2(@types/node@24.12.4)(jiti@2.7.0)(rollup@4.60.3)(yaml@2.9.0)
+        version: 6.3.3(@types/node@24.12.4)(jiti@2.7.0)(rollup@4.60.3)(yaml@2.9.0)
       vue:
         specifier: ^3.5.13
         version: 3.5.34(typescript@6.0.3)
@@ -2346,8 +2346,8 @@ packages:
     resolution: {integrity: sha512-+QDcgc7e+au6EZ0YjMmRRjNoQo5bDMlaR45aWDoFsuxQTCM9qmCHRoiKJPELgckJ8Wmr7vcfpa9eCDHBFh6G4w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@6.3.2:
-    resolution: {integrity: sha512-Wvl/420m99OjKRH9Q+Vk7JBed8H39n66R61FG2ty0yZjQXBplIIXvJWYXUouMn2U4znfjpYe1HLOA2Rpet6uog==}
+  astro@6.3.3:
+    resolution: {integrity: sha512-wvLIZQYbBZt6U8gyflBW4SLBypaqdwLZUH93rT3oT53cmQ0bTGubvMAGjqBRoheOYzYcTJZtW6czztzbu4kQ5g==}
     engines: {node: '>=22.12.0', npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3606,8 +3606,8 @@ packages:
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
-  magicast@0.5.2:
-    resolution: {integrity: sha512-E3ZJh4J3S9KfwdjZhe2afj6R9lGIN5Pher1pF39UGrXRqq/VDaGVIGN13BjHd2u8B61hArAGOnso7nBOouW3TQ==}
+  magicast@0.5.3:
+    resolution: {integrity: sha512-pVKE4UdSQ7DvHzivsCIFx2BJn1mHG6KsyrFcaxFx6tONdneEuThrDx0Cj3AMg58KyN4pzYT+LHOotxDQDjNvkw==}
 
   markdown-table@3.0.4:
     resolution: {integrity: sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==}
@@ -4862,12 +4862,12 @@ snapshots:
       is-wsl: 3.1.1
       which-pm-runs: 1.1.0
 
-  '@astrojs/vue@6.0.1(@types/node@24.12.4)(astro@6.3.2(@types/node@24.12.4)(jiti@2.7.0)(rollup@4.60.3)(yaml@2.9.0))(jiti@2.7.0)(vue@3.5.34(typescript@6.0.3))(yaml@2.9.0)':
+  '@astrojs/vue@6.0.1(@types/node@24.12.4)(astro@6.3.3(@types/node@24.12.4)(jiti@2.7.0)(rollup@4.60.3)(yaml@2.9.0))(jiti@2.7.0)(vue@3.5.34(typescript@6.0.3))(yaml@2.9.0)':
     dependencies:
       '@vitejs/plugin-vue': 6.0.6(vite@7.3.3(@types/node@24.12.4)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.34(typescript@6.0.3))
       '@vitejs/plugin-vue-jsx': 5.1.5(vite@7.3.3(@types/node@24.12.4)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.34(typescript@6.0.3))
       '@vue/compiler-sfc': 3.5.34
-      astro: 6.3.2(@types/node@24.12.4)(jiti@2.7.0)(rollup@4.60.3)(yaml@2.9.0)
+      astro: 6.3.3(@types/node@24.12.4)(jiti@2.7.0)(rollup@4.60.3)(yaml@2.9.0)
       vite: 7.3.3(@types/node@24.12.4)(jiti@2.7.0)(yaml@2.9.0)
       vite-plugin-vue-devtools: 8.1.1(vite@7.3.3(@types/node@24.12.4)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.34(typescript@6.0.3))
       vue: 3.5.34(typescript@6.0.3)
@@ -6993,7 +6993,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@6.3.2(@types/node@24.12.4)(jiti@2.7.0)(rollup@4.60.3)(yaml@2.9.0):
+  astro@6.3.3(@types/node@24.12.4)(jiti@2.7.0)(rollup@4.60.3)(yaml@2.9.0):
     dependencies:
       '@astrojs/compiler': 4.0.0
       '@astrojs/internal-helpers': 0.9.1
@@ -7023,7 +7023,7 @@ snapshots:
       js-yaml: 4.1.1
       jsonc-parser: 3.3.1
       magic-string: 0.30.21
-      magicast: 0.5.2
+      magicast: 0.5.3
       mrmime: 2.0.1
       neotraverse: 0.6.18
       obug: 2.1.1
@@ -8550,7 +8550,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  magicast@0.5.2:
+  magicast@0.5.3:
     dependencies:
       '@babel/parser': 7.29.3
       '@babel/types': 7.29.0
