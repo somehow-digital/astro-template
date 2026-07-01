@@ -15,8 +15,8 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0(@types/node@24.13.2)(astro@7.0.3(@astrojs/markdown-remark@7.2.0)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)(@types/node@24.13.2)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(esbuild@0.28.1)(jiti@2.7.0)(vue@3.5.39(typescript@6.0.3))(yaml@2.9.0)
       '@dotenvx/dotenvx':
-        specifier: ^1.36.0
-        version: 1.75.1
+        specifier: ^2.0.0
+        version: 2.0.0
       '@unocss/reset':
         specifier: ^66.0.0
         version: 66.7.3
@@ -758,12 +758,12 @@ packages:
     resolution: {integrity: sha512-abYYgI29wJhWIfWTYrYuzRYDcHQUQ1N5ylnhxYn1NJnIQMqUWGLbDmt12JABtZ+R6h6UNatQrS7rhP86etvJyQ==}
     engines: {node: '>=22.18.0'}
 
-  '@dotenvx/dotenvx@1.75.1':
-    resolution: {integrity: sha512-/BITOC9dmS/edY2zQwZNicQ059O6RKabtQfyEafV0nGtfYRNHYy1DIPiYVcov40+tob9hfmBnbR963dS+EQ1DQ==}
+  '@dotenvx/dotenvx@2.0.0':
+    resolution: {integrity: sha512-KUfsk+3ualeDhggDgwId16BGlqDlGDXxqyUQIANA5PSmgjHt9SpsbPtlQP6EgDJlVVRBrue6ezDvMCVaDrS7PQ==}
     hasBin: true
 
-  '@dotenvx/primitives@0.8.0':
-    resolution: {integrity: sha512-VYJy0uhFm9zTJ1TxBaW/pA8bjbOM/OttaNMwZ1RHG4JKyRG7DhSdiqD1ipQoAyoD22olUtxbP78W9xY3Wd11bg==}
+  '@dotenvx/primitives@1.7.0':
+    resolution: {integrity: sha512-DeOtLg1+uzbq34voCBrBbmqePPV8cnRQEsHxXEn0s06oCpyOSdU0yOirRhBE+d70bkv4emeMUptLKpMpMZRREQ==}
 
   '@dprint/formatter@0.5.1':
     resolution: {integrity: sha512-cdZUrm0iv/FnnY3CKE2dEcVhNEzrC551aE2h2mTFwQCRBrqyARLDnb7D+3PlXTUVp3s34ftlnGOVCmhLT9DeKA==}
@@ -3660,9 +3660,9 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  isexe@3.1.5:
-    resolution: {integrity: sha512-6B3tLtFqtQS4ekarvLVMZ+X+VlvQekbe4taUkf/rhVO3d/h0M2rfARm/pXLcPEsjjMsFgrFgSrhQIxcSVrBz8w==}
-    engines: {node: '>=18'}
+  isexe@4.0.0:
+    resolution: {integrity: sha512-FFUtZMpoZ8RqHS3XeXEmHWLA4thH+ZxCv2lOiPIn1Xc7CxrqhWzNSDzD+/chS/zbYezmiwWLdQC09JdQKmthOw==}
+    engines: {node: '>=20'}
 
   jiti@2.6.1:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
@@ -4570,8 +4570,8 @@ packages:
     resolution: {integrity: sha512-eNRKgb3z66Yp3D2CixVujOUvXLFUTij/zVnV8KRyvFdQwpz7I5DS8UfRkTeLzb64u+dkzDSdelE24izu+zSSUg==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  systeminformation@5.31.8:
-    resolution: {integrity: sha512-/HGurKdgjYGbfwCPSokoX4WAlasVxuj1SnTukLiIYHPkjbDbN1PMATj8mkHpqkVzUF34y5ZyCY1TMKP32AI9rA==}
+  systeminformation@5.31.11:
+    resolution: {integrity: sha512-I6O7iaUj23AXRgCPDDnvi3xHvdOLp4+1YMbF+X194lJwY1NeWojgHJPhslVKcmTtrLTguRk3QJK+xEdTiI3P0w==}
     engines: {node: '>=8.0.0'}
     os: [darwin, linux, win32, freebsd, openbsd, netbsd, sunos, android]
     hasBin: true
@@ -4939,9 +4939,9 @@ packages:
     engines: {node: '>= 8'}
     hasBin: true
 
-  which@4.0.0:
-    resolution: {integrity: sha512-GlaYyEb07DPxYCKhKzplCWBJtvxZcZMrL+4UkrTSJHHPyZU4mYYTv3qaOe77H7EODLSSopAUFAc6W8U4yqvscg==}
-    engines: {node: ^16.13.0 || >=18.0.0}
+  which@6.0.1:
+    resolution: {integrity: sha512-oGLe46MIrCRqX7ytPUf66EAYvdeMIZYn3WaocqqKZAxrBpkqHfL/qvTyJ/bTk5+AqHCjXmrv3CEWgy368zhRUg==}
+    engines: {node: ^20.17.0 || >=22.9.0}
     hasBin: true
 
   word-wrap@1.2.5:
@@ -5808,9 +5808,9 @@ snapshots:
 
   '@cspell/url@10.0.1': {}
 
-  '@dotenvx/dotenvx@1.75.1':
+  '@dotenvx/dotenvx@2.0.0':
     dependencies:
-      '@dotenvx/primitives': 0.8.0
+      '@dotenvx/primitives': 1.7.0
       commander: 11.1.0
       conf: 10.2.0
       dotenv: 17.4.2
@@ -5818,16 +5818,17 @@ snapshots:
       env-paths: 2.2.1
       execa: 5.1.1
       fdir: 6.5.0(picomatch@4.0.4)
-      ignore: 5.3.2
+      ignore: 7.0.5
       object-treeify: 1.1.33
       open: 8.4.2
       picomatch: 4.0.4
-      systeminformation: 5.31.8
+      synckit: 0.11.13
+      systeminformation: 5.31.11
       undici: 7.28.0
-      which: 4.0.0
+      which: 6.0.1
       yocto-spinner: 1.2.0
 
-  '@dotenvx/primitives@0.8.0': {}
+  '@dotenvx/primitives@1.7.0': {}
 
   '@dprint/formatter@0.5.1': {}
 
@@ -8769,7 +8770,7 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isexe@3.1.5: {}
+  isexe@4.0.0: {}
 
   jiti@2.6.1: {}
 
@@ -10038,7 +10039,7 @@ snapshots:
     dependencies:
       '@pkgr/core': 0.3.6
 
-  systeminformation@5.31.8: {}
+  systeminformation@5.31.11: {}
 
   tapable@2.3.3: {}
 
@@ -10366,9 +10367,9 @@ snapshots:
     dependencies:
       isexe: 2.0.0
 
-  which@4.0.0:
+  which@6.0.1:
     dependencies:
-      isexe: 3.1.5
+      isexe: 4.0.0
 
   word-wrap@1.2.5: {}
 
