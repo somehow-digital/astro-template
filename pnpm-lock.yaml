@@ -16,7 +16,7 @@ importers:
         version: 7.0.1(@types/node@24.13.3)(astro@7.1.3(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(esbuild@0.28.1)(jiti@2.7.0)(supports-color@10.2.2)(vue@3.5.40(typescript@6.0.3))(yaml@2.9.0)
       '@dotenvx/dotenvx':
         specifier: ^2.0.0
-        version: 2.17.1
+        version: 2.17.2
       '@unocss/reset':
         specifier: ^66.0.0
         version: 66.7.5
@@ -760,8 +760,8 @@ packages:
     resolution: {integrity: sha512-abYYgI29wJhWIfWTYrYuzRYDcHQUQ1N5ylnhxYn1NJnIQMqUWGLbDmt12JABtZ+R6h6UNatQrS7rhP86etvJyQ==}
     engines: {node: '>=22.18.0'}
 
-  '@dotenvx/dotenvx@2.17.1':
-    resolution: {integrity: sha512-H8tbSn2a7izztsyz4S9rRUjlniJYuL6XfUBt5H2gRQwRXP94dUL3RNMMz46r5jfLmmjALQUhWzL+M8HagN5rfQ==}
+  '@dotenvx/dotenvx@2.17.2':
+    resolution: {integrity: sha512-7+bOjESo1xDXnNoE5jTIJQBft44zUD/KX113phJSgASYsKIXrZmy+1rHlSxIzvaxGTaLbLtuo26LIVECXZPt9g==}
     hasBin: true
 
   '@dotenvx/primitives@2.1.0':
@@ -5493,7 +5493,7 @@ snapshots:
 
   '@cspell/url@10.0.1': {}
 
-  '@dotenvx/dotenvx@2.17.1':
+  '@dotenvx/dotenvx@2.17.2':
     dependencies:
       '@dotenvx/primitives': 2.1.0
       '@dotenvx/tooling': 1.0.3
