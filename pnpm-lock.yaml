@@ -13,7 +13,7 @@ importers:
         version: 3.7.4
       '@astrojs/vue':
         specifier: ^7.0.0
-        version: 7.1.0(@types/node@24.19.2)(astro@7.4.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1))(esbuild@0.28.2)(jiti@2.7.0)(supports-color@10.2.2)(vue@3.5.44(typescript@6.0.3))(yaml@2.9.1)
+        version: 7.1.1(@types/node@24.19.2)(astro@7.4.1(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1))(esbuild@0.28.2)(jiti@2.7.0)(supports-color@10.2.2)(vue@3.5.44(typescript@6.0.3))(yaml@2.9.1)
       '@dotenvx/dotenvx':
         specifier: ^2.0.0
         version: 2.38.0
@@ -22,7 +22,7 @@ importers:
         version: 66.11.0
       astro:
         specifier: ^7.0.0
-        version: 7.4.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1)
+        version: 7.4.1(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1)
       vue:
         specifier: ^3.5.13
         version: 3.5.44(typescript@6.0.3)
@@ -239,8 +239,8 @@ packages:
     resolution: {integrity: sha512-Qt2T6RGtYacyV8OZU3IcyFbsp69s6qIcnWvQvn7/p9MKebPCpEswP5Ji4RhifG3DfeBX7e07Pjj5smkd+Tfp7Q==}
     engines: {node: '>=22.22.0'}
 
-  '@astrojs/vue@7.1.0':
-    resolution: {integrity: sha512-rHzq1uCk7vi43U+/5XdeUSbTaACxkRzLjbJJ5yOgbVxDnudZ3XVkrOnZ3wBx6agjARVGGThBEjn30HpU8whcdQ==}
+  '@astrojs/vue@7.1.1':
+    resolution: {integrity: sha512-iVkhAlgQPP+rCrjzPO2VWZtvX44lVvH9Oz25xzQtANGG31M/FsElpxsj9yRVWfSa3CfAtpbJJ3QQqhQPCZpHSg==}
     engines: {node: '>=22.22.0'}
     peerDependencies:
       astro: ^7.0.0
@@ -2395,8 +2395,8 @@ packages:
     resolution: {integrity: sha512-+QDcgc7e+au6EZ0YjMmRRjNoQo5bDMlaR45aWDoFsuxQTCM9qmCHRoiKJPELgckJ8Wmr7vcfpa9eCDHBFh6G4w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@7.4.0:
-    resolution: {integrity: sha512-6ThZU2bp7asGSceVcnh3r23dE88HpYN5vxtnCWYYrjr8lpQjx4eDW6/W8WgNlcc+T/b8zHmQ/EcS4DpQG4ZoOg==}
+  astro@7.4.1:
+    resolution: {integrity: sha512-mzWNEWSef1VQDgFku6Gp0v8Qx53NOkNlOIDQcX9ovxAZ1QXic6cks/FFo+gxPM9anXuat4X1FhB61KTk3XFvgg==}
     engines: {node: '>=22.22.0', npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     peerDependencies:
@@ -4833,12 +4833,12 @@ snapshots:
       is-docker: 4.0.0
       package-manager-detector: 1.9.0
 
-  '@astrojs/vue@7.1.0(@types/node@24.19.2)(astro@7.4.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1))(esbuild@0.28.2)(jiti@2.7.0)(supports-color@10.2.2)(vue@3.5.44(typescript@6.0.3))(yaml@2.9.1)':
+  '@astrojs/vue@7.1.1(@types/node@24.19.2)(astro@7.4.1(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1))(esbuild@0.28.2)(jiti@2.7.0)(supports-color@10.2.2)(vue@3.5.44(typescript@6.0.3))(yaml@2.9.1)':
     dependencies:
       '@vitejs/plugin-vue': 6.0.10(vite@8.3.4(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1))(vue@3.5.44(typescript@6.0.3))
       '@vitejs/plugin-vue-jsx': 5.1.6(supports-color@10.2.2)(vite@8.3.4(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1))(vue@3.5.44(typescript@6.0.3))
       '@vue/compiler-sfc': 3.5.44
-      astro: 7.4.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1)
+      astro: 7.4.1(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1)
       vite: 8.3.4(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1)
       vite-plugin-vue-devtools: 8.2.1(supports-color@10.2.2)(vite@8.3.4(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1))(vue@3.5.44(typescript@6.0.3))
       vue: 3.5.44(typescript@6.0.3)
@@ -6956,7 +6956,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@7.4.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1):
+  astro@7.4.1(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1):
     dependencies:
       '@astrojs/compiler-rs': 0.5.1
       '@astrojs/internal-helpers': 0.13.0
