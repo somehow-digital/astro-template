@@ -1,3 +1,4 @@
 unocss
 esbuild
 voidzero
+tsrs
