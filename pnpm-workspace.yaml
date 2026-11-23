@@ -1,17 +1,23 @@
-allowBuilds:
-  esbuild: true
-  sharp: true
 blockExoticSubdeps: true
-enablePrePostScripts: false
-optimisticRepeatInstall: true
-shellEmulator: true
+minimumReleaseAgeExcludePrune: true
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 10080
+
 trustPolicyExclude:
   - tsrs@7.1.0-beta.tsrs2
-overrides:
-  vite@*: npm:@voidzero-dev/vite-plus-core@8.3.8000
-verifyDepsBeforeRun: install
+
 registries:
   https://registry.vlt.io/upstream/npm/:
     scopes: ['@']
+
+enablePrePostScripts: false
+shellEmulator: true
+verifyDepsBeforeRun: install
+optimisticRepeatInstall: true
+
+overrides:
+  vite@*: npm:@voidzero-dev/vite-plus-core@8.3.8000
+
+allowBuilds:
+  esbuild: true
+  sharp: true
